@@ -1,0 +1,80 @@
+
+
+/* Body background */
+body {
+  background-color: #f9f9fc;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header li {
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #dfe6e9;
+  color: #2d3436;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main layout handled before (Flexbox) */
+/* Just adding padding and background to sections */
+main {
+  padding: 1rem;
+  gap: 1rem;
+}
+
+article, aside {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Links */
+a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  article, aside {
+    width: 100%;
+  }
+}
