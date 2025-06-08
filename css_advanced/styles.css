@@ -197,7 +197,9 @@ blockquote p span {
   color: #333;
   font-weight: 700;
 }
-
+.popular {
+  color:#a34ed7
+}
 .videos-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
